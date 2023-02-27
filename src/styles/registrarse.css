@@ -1,3 +1,7 @@
+main{
+    background-color: white;
+}
+
 #form-registrarse{
     align-items: normal;
 }
@@ -6,7 +10,7 @@
     width: 500px;
     height: auto;
     background-color: white;
-    margin: 30px auto;
+    margin: 60px auto;
     padding: 20px;
     box-shadow:  5px -5px 53px #bdbdbd,
                  -5px 5px 53px #ffffff;
@@ -243,6 +247,7 @@ label{
         background: white;
         box-shadow: none;
         margin-bottom: 50px;
+        border-radius: 0px;
     }
     .button-signin_container{
         flex-direction: column;
@@ -250,7 +255,7 @@ label{
     #dialog_error{
         margin-top: 5px;
     }
-    .container4{
+    .container3{
         flex-direction: column;
     }
 }
