@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/sidebar.css"
+import "../styles/sidebar.css";
 import IconCasaSide from "../assets/sidebarCasa.png";
 import IconContactarSide from "../assets/sidebarContactar.png";
 

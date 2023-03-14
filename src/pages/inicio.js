@@ -21,7 +21,7 @@ export function Inicio() {
                     <div className="img">
                         <img src={ImagenDepartamento} alt=""/>
                     </div>
-                        <button>Departamento
+                        <button>Departamentos
                         </button>
                 </div>
                 <div className="card-main_img">
@@ -30,7 +30,7 @@ export function Inicio() {
                     <div className="img">
                         <img src={ImagenCasa} alt=""/>
                     </div>
-                        <button>Casa
+                        <button>Casas
                         </button>
                 </div>
             </div>

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  height: 100vh;
+}
+
 body::-webkit-scrollbar {
   width: 10px;              /* width of the entire scrollbar */
 }

@@ -1,6 +1,6 @@
 import React from "react"
-import Vendedor1 from "../assets/vendedor1.jpg";
-import Vendedor2 from "../assets/vendedor2.jpg";
+import Vendedor1 from "../assets/vendedor1.png";
+import Vendedor2 from "../assets/vendedor2.png";
 
 export function Contactar() {
     return(
@@ -9,16 +9,16 @@ export function Contactar() {
                 <h1>Vendedores</h1>
                 <div className="vendedores-img_container">
                     <picture>
-                        <img src={Vendedor1} alt="persona1"/>
+                        <img src={Vendedor1} alt="vendedor1"/>
                         <div className="vendedor-contact_container">
-                            <p>Vendedor 1</p>
+                            <p>Juan Escorcia</p>
                             <button>Contactar</button>
                         </div>
                     </picture>
                     <picture>
-                        <img src={Vendedor2} alt="persona2"/>
+                        <img src={Vendedor2} alt="vendedor2"/>
                         <div className="vendedor-contact_container">
-                            <p>Vendedor 2</p>
+                            <p>Pedro Herrera</p>
                             <button>Contactar</button>
                         </div>
                     </picture>
